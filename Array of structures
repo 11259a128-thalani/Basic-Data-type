@@ -1,0 +1,27 @@
+#include sstdio.h>
+struct Student {
+  int roll;
+ char name[20];
+};
+int main() {
+  struct Student s(3];
+  int i;
+  for (i=0;i<3;i++) {
+      print("Enter roll & name: ");
+      scanf("%d %s", &s[i].roll, s[i].name);
+ }
+ printf("\nStudent List:\n");
+for (i=0;i<3;i++){
+     printf("%d %s\n", [i].roll, s[i].name);
+}
+
+
+OUTPUT:
+
+
+Enter roll & name : 143 swarna
+Enter roll & name : 314 anil
+student list:
+143 swarna
+314 anil
+
