@@ -21,3 +21,12 @@ int main() {
         printf("%d",ali]);
    return 0;
 }
+
+
+
+OUTPUT
+
+
+enter number of elements : 5
+enter elements 83152
+sorted array  :12358
