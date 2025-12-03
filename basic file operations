@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main() {
+  FILE *fp;
+  char text[100];
+  fp= fopen("sample.txt', "w");
+  fprint(fp, "Hello File!");
+  fclose(fp);
+  fp = fopen("sample.txt", "r");
+  fgets(text, 100, fp);
+  printf("File Content: 9%s\n", text);
+  fclose(fp);
+  return 0;
+}
+
+
+OUTPUT:
+
+File content : Hello file!
+ 
