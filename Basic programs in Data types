@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+   int a=10;float b=5.5; char c='A'; double d=123.456789;
+   printf("Integer:%d\n"a);
+   printf("Float:%.2f\n",b);
+   printf("Character:%c\n",c);
+   printf("Double:%.31f\n"d);
+   return 0;
+ }
+
+
+ OUTPUT:
+
+ integer   = 10
+ float     = 5.500000
+ character = A
+ double    = 123.456789
