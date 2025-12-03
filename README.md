@@ -1,2 +1,2 @@
-# Basic-Data-type
-Basic Data type
+# c programme 
+c programme 
